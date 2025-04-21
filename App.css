@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald",sans-serif;
+}
+body
+{
+    width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blueviolet;
+}
+html
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currency-converter
+{
+    width:400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+}
+h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    color: rgba(137, 43, 226, 0.842);
+    text-align: center;
+    border-top: 2px dashed rgba(137, 43, 226, 0.842);
+    border-bottom: 2px dashed rgba(137, 43, 226, 0.842);
+}
+.box
+{
+    width: 100%;
+    height: 200px;
+    background-image: url(assets/currency.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.input-container
+{
+    margin-bottom: 15px;
+}
+label
+{
+    display: block;
+    margin-bottom: 5px;
+    color:rgba(137, 43, 226, 0.842) ;
+    font-weight:500;
+}
+input,select
+{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline:none;
+}
+input:focus,
+select:focus
+{
+  border-color: rgba(137, 43, 226, 0.842);
+  border-width: 2px;
+}
+.result
+{
+    margin: 20px 0px;
+    padding: 10px;
+    border: 2px solid  rgba(137, 43, 226, 0.842);
+    border-radius: 10px;
+}
+.result p
+{
+    margin: 10px;
+    font-weight: bold;
+    color: rgba(137, 43, 226, 0.842);
+    text-align: center;
+}
